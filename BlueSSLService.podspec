@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.module_name  = 'SSLService'
 
   s.requires_arc = true
-  s.osx.deployment_target = "10.12"
+  s.osx.deployment_target = "10.11"
   s.ios.deployment_target = "9.3"
   s.tvos.deployment_target = "10.0"
   s.source   = { :git => "https://github.com/IBM-Swift/BlueSSLService.git", :tag => s.version }
